@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
+ /*blue: #9AF9E0*/
+
 body {
   font-family: 'Lora';
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.2))), url("../img/flyers.jpg");
@@ -90,7 +92,7 @@ p {
 
 #mainNav .navbar-brand {
   font-family: ;
-  color: #ff0066;
+  color: #9AF9E0; /*#ff0066 for pin, #9AF9E0 for blue*/
   text-shadow: 0.75px 0.75px #000000;
   font-family: 'Audiowide', cursive;
 }
@@ -101,7 +103,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #ff0055;
+  color: #ff0055; 
 }
 
 @media (min-width: 992px) {
@@ -143,7 +145,7 @@ p {
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
-    position: absolute;
+    position: absolute; /*absolute (for complete)*/
     bottom: -2rem;
   }
 }
