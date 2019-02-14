@@ -258,6 +258,7 @@ p {
 .btn-primary {
   background-color: #ff0066;        /*for pink #ff0066 | for blue #9AF9E0*/
   border-color: #ff0066;
+  font-family: Raleway;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
